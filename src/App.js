@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css';
 import HelloWorld from './components/HelloWorld'
-import CounterExample from './components/CounterExample';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div >
+      <Header/>
       <HelloWorld name="Asra" />
-      <CounterExample/>
+      <Footer/>
+
     </div>
   );
 }
